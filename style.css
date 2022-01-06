@@ -19,8 +19,8 @@ body{
     border-image-slice: 1;
 }
 .heading-text{
-    font-size: 38px;
-    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
     margin-right: 40px;
     margin-top: 40px;
 }
@@ -35,7 +35,7 @@ body{
 .first-mission-text h5{
     font-weight: 300;
 }
-.first-mission-text button{
+button{
     font-size: 15px;
     padding: 15px 40px;
     background-color: rgb(218, 31, 31);
@@ -50,7 +50,7 @@ body{
 }
 .goals-title{
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Poppins', sans-serif;
     padding-bottom: 30px;
 }
 
@@ -68,14 +68,49 @@ body{
     padding:10px 15px 10px 15px;
     font-size: 13px;
     font-weight: 300;
-    background-color: rgb(196, 255, 196);
+    background-color: rgb(161, 193, 223);
     border-radius: 5%;
-    height: 350px;
+    height: 330px;
     width: 300px;
 }
 .color2{
-    background-color: lightcyan;
+    background-color: rgb(196, 230, 203);
 }
 .color3{
     background-color: lightpink;
+}
+
+.webwork{
+    position: relative;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.shape-coding-image{
+    position: relative;
+    left: -70px;
+}
+.coding-image{
+    position: absolute;
+    left: 0px;
+}
+.shape-project-image{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.project-image{
+    position: absolute;
+    right: 0px;
+}
+
+.webwork-info-1{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 220px;
+}
+.webwork-info-2{
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 220px;
 }
