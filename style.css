@@ -114,3 +114,27 @@ button{
     padding-top: 50px;
     padding-right: 220px;
 }
+.my-expertise{
+    padding-top: 100px;
+}
+.my-skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.skill p{
+    font-size: 15px;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px grey;
+    border: 4px solid;
+    padding: 20px;
+    height: 340px;
+    width: 380px;
+}
+.contact-me a{
+    text-decoration: none;
+    color: rgb(235, 169, 29);
+    cursor:pointer;
+}
